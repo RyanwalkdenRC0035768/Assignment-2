@@ -85,5 +85,23 @@
   <ItemGroup>
     <None Include="Resources\resistors_in_series1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parallel circuit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parallel circuit1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parallel circuit new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parallelcircuit new 2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circumference.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pythagoras1.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

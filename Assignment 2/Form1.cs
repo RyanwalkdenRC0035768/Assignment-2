@@ -12,7 +12,9 @@ namespace Assignment_2
 {
     public partial class Form1 : Form
     {
+        private const string Format = "0.000";
         private object lblAnswer;
+        private object label13_Click_1;
 
         public Form1()
         {
@@ -57,6 +59,156 @@ namespace Assignment_2
             {
                 label4.Text = "answer =";
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double R1 = Convert.ToDouble(textBox8.Text);
+                double R2 = Convert.ToDouble(textBox7.Text);
+                double R3 = Convert.ToDouble(textBox6.Text);
+                double R4 = Convert.ToDouble(textBox5.Text);
+
+                double ans = 1.0 / (1.0 / R1 + 1.0 / R2 + 1.0 / R3 + 1.0 / R4);
+
+                label3.Text = "answer =" + ans.ToString(Format);
+
+            }
+            catch
+            {
+                label3.Text = "answer =";
+            }
+        }
+
+        private void textBox8_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double R1 = Convert.ToDouble(textBox10.Text);
+
+                double ans = 2 * 3.1415 * R1;
+
+                label6.Text = "answer =" + ans.ToString("0.00");
+
+            }
+            catch
+            {
+                label6.Text = "answer =";
+            }
+        }
+
+        private void textBox10_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox11_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox12_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double R1 = Convert.ToDouble(textbox11.Text);
+                double R2 = Convert.ToDouble(textBox12.Text);
+
+                double ans = R1 * R1 + R2 * R2;
+
+                label9.Text = "C = answer =" + ans.ToString(Format);
+
+            }
+            catch
+            {
+                label9.Text = "C = answer =";
+            }
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label13_Click_2(object sender, EventArgs e)
+        {
+
         }
     }
 }

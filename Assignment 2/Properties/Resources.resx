@@ -118,10 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="circumference" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circumference.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="resistors_in_series" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\resistors_in_series.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="parallel circuit1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parallel circuit1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parallel circuit new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parallel circuit new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parallelcircuit new 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parallelcircuit new 2.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="resistors_in_series1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\resistors_in_series1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parallel circuit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parallel circuit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pythagoras1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pythagoras1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
