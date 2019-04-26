@@ -368,9 +368,9 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(424, 114);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(93, 13);
+            this.label9.Size = new System.Drawing.Size(63, 13);
             this.label9.TabIndex = 32;
-            this.label9.Text = "C = answer cubed";
+            this.label9.Text = "C = answer ";
             this.label9.Click += new System.EventHandler(this.label9_Click_1);
             // 
             // label12
