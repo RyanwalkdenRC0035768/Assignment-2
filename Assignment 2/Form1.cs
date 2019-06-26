@@ -43,42 +43,96 @@ namespace Assignment_2
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //series resistor, it calculates the total series resistace R1+R2+R3+R4
+            double R1, R2, R3, R4, ans;
             try
+
             {
-                double R1 = Convert.ToDouble(textBox1.Text);
-                double R2 = Convert.ToDouble(textBox2.Text);
-                double R3 = Convert.ToDouble(textBox3.Text);
-                double R4 = Convert.ToDouble(textBox4.Text);
-
-                double ans = R1 + R2 + R3 + R4;
-
-                label4.Text = "answer =" + ans.ToString("0.00");
-
+                R1 = Convert.ToDouble(textBox1.Text);
             }
             catch
             {
-                label4.Text = "answer =";
+                R1 = 0;
             }
+
+            try
+
+            {
+                R2 = Convert.ToDouble(textBox2.Text);
+            }
+            catch
+            {
+                R2 = 0;
+            }
+
+            try
+
+            {
+                R3 = Convert.ToDouble(textBox3.Text);
+            }
+            catch
+            {
+                R3 = 0;
+            }
+            try
+
+            {
+                R4 = Convert.ToDouble(textBox4.Text);
+            }
+            catch
+            {
+                R4 = 0;
+            }
+
+            ans = R1 + R2 + R3 + R4;
+
+            label4.Text = "answer =" + ans.ToString("0.00");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //parallel resistor, it calculates the total parallel resistance 1.0 / (1.0 / R1 + 1.0 / R2 + 1.0 / R3 + 1.0 / R4)
+            double R1, R2, R3, R4, ans;
             try
+
             {
-                double R1 = Convert.ToDouble(textBox8.Text);
-                double R2 = Convert.ToDouble(textBox7.Text);
-                double R3 = Convert.ToDouble(textBox6.Text);
-                double R4 = Convert.ToDouble(textBox5.Text);
-
-                double ans = 1.0 / (1.0 / R1 + 1.0 / R2 + 1.0 / R3 + 1.0 / R4);
-
-                label3.Text = "answer =" + ans.ToString(Format);
-
+                R1 = Convert.ToDouble(textBox8.Text);
             }
             catch
             {
-                label3.Text = "answer =";
+                R1 = double.PositiveInfinity;
             }
+            try
+
+            {
+                R2 = Convert.ToDouble(textBox7.Text);
+            }
+            catch
+            {
+                R2 = double.PositiveInfinity;
+            }
+            try
+
+            {
+                R3 = Convert.ToDouble(textBox6.Text);
+            }
+            catch
+            {
+                R3 = double.PositiveInfinity;
+            }
+            try
+
+            {
+                R4 = Convert.ToDouble(textBox5.Text);
+            }
+            catch
+            {
+                R4 = double.PositiveInfinity;
+            }
+
+            ans = 1.0 / (1.0 / R1 + 1.0 / R2 + 1.0 / R3 + 1.0 / R4);
+
+            label3.Text = "answer =" + ans.ToString(Format);
         }
 
         private void textBox8_TextChanged(object sender, EventArgs e)
